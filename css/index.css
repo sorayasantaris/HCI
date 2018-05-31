@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+body{
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #fdfdfb;
+}
+
+nav {
+  background: transparent;
+  height: 75px;
+  transition: all .4s ease-in-out;
+}
+
+.navbar-brand {
+    padding: 40px 40px;
+    height: 80px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+    }
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  float: right;
+}
+li {
+  margin-top: 25px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding-right: 40px;
+  font-size: 16px;
+  transition: all .4s ease-in-out;
+}
+ul li a:hover {
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+}
+.banner {
+  background-size: cover;
+  /* background-image */
+  height: 100vh;
+}
+.text {
+  max-width: 960px;
+  margin: 80px auto;
+}
+nav.black {
+  background: black;
+  opacity: 0.7;
+  height: 75px;
+  transition: all .4s ease-in-out;
+}
+nav.black a {
+  color: white;
+  transition: all .4s ease-in-out;
+}
